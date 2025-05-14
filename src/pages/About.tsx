@@ -23,7 +23,7 @@ const About = () => {
               <div className="relative">
                 <div className="absolute -top-6 -left-6 w-64 h-64 bg-primary/10 rounded-lg"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" 
+                  src="/img/kanz.jpg" 
                   alt="John Doe" 
                   className="w-full h-auto rounded-lg relative z-10"
                 />

@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
           </div>
           
-          <div>
+          {/* <div>
             <h3 className="text-xl font-playfair font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
@@ -37,21 +37,21 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           
           <div>
             <h3 className="text-xl font-playfair font-bold mb-4">Contact</h3>
             <address className="not-italic">
-              <p className="text-cream-600 mb-2">contact@example.com</p>
-              <p className="text-cream-600 mb-2">+123 456 7890</p>
+              <p className="text-cream-600 mb-2">kanzalkautsar@gmail.com</p>
+              <p className="text-cream-600 mb-2">+62 812 8210 3522</p>
               <div className="flex space-x-4 mt-4">
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-opacity-80 transition-opacity">
+                <a href="https://x.com/KanzAlkautsar" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-opacity-80 transition-opacity">
                   Twitter
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-opacity-80 transition-opacity">
+                <a href="https://www.linkedin.com/in/kanz-abiyu-alkautsar-a3b4b4362/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-opacity-80 transition-opacity">
                   LinkedIn
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-opacity-80 transition-opacity">
+                <a href="https://www.instagram.com/alka_bro.kanz/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-opacity-80 transition-opacity">
                   Instagram
                 </a>
               </div>

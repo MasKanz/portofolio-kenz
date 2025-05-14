@@ -39,15 +39,12 @@ const Navbar = () => {
           <Link to="/" className={cn("nav-link", location.pathname === "/" && "after:scale-x-100")}>
             Home
           </Link>
-          <Link to="/about" className={cn("nav-link", location.pathname === "/about" && "after:scale-x-100")}>
+          {/* <Link to="/about" className={cn("nav-link", location.pathname === "/about" && "after:scale-x-100")}>
             About
-          </Link>
+          </Link> */}
           <Link to="/portfolio" className={cn("nav-link", location.pathname === "/portfolio" && "after:scale-x-100")}>
             Portfolio
           </Link>
-          <a href="mailto:contact@example.com" className="btn-primary">
-            Contact Me
-          </a>
         </nav>
         
         {/* Mobile Menu Button */}

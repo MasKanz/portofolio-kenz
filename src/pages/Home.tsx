@@ -10,28 +10,28 @@ const Home = () => {
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-12 lg:mb-0 animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Hello, I'm <span className="text-primary">John Doe</span>
+              Hello, I'm <span className="text-primary">Kanz Abiyu Alkautsar</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-cream-600">
-              UI/UX Designer & Frontend Developer
+              Web Developer
             </p>
             <p className="text-lg mb-8 max-w-md text-cream-500">
-              I create beautiful digital experiences that drive results and delight users.
+              I am a student of SMKN 1 Cibinong with an interest in web development. I am currently learning about web development, especially in the field of front-end and back-end development.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <Link to="/portfolio" className="btn-primary">
                 View My Work
               </Link>
               <Link to="/about" className="btn-outline">
                 About Me
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="lg:w-1/2 flex justify-center lg:justify-end animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full bg-primary/10 flex items-center justify-center overflow-hidden">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-white shadow-xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  src="/img/kanz.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -51,14 +51,12 @@ const Home = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             {[
-              { name: "UI/UX Design", level: 90 },
-              { name: "React", level: 85 },
-              { name: "TypeScript", level: 80 },
-              { name: "Tailwind CSS", level: 95 },
-              { name: "Figma", level: 90 },
-              { name: "Next.js", level: 75 },
-              { name: "Node.js", level: 70 },
-              { name: "Responsive Design", level: 95 },
+              { name: "HTML", level: 95 },
+              { name: "CSS", level: 90 },
+              { name: "JavaScript", level: 65 },
+              { name: "PHP Laravel", level: 90 },
+              { name: "MySQL", level: 90 },
+              { name: "Bootstrap", level: 80 },
             ].map((skill, index) => (
               <div key={index} className="card" style={{ animationDelay: `${index * 0.1}s` }}>
                 <h3 className="font-bold mb-2">{skill.name}</h3>
@@ -87,21 +85,33 @@ const Home = () => {
             {[
               {
                 id: 1,
-                title: "E-commerce Website",
+                title: "Catering Product Page",
                 category: "Web Development",
-                image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                image: "/img/Catering_Product.png"
               },
               {
                 id: 2,
-                title: "Mobile Banking App",
-                category: "UI/UX Design",
-                image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+                title: "Catering Admin Management Page",
+                category: "Web Development",
+                image: "/img/Catering_Admin.png"
               },
               {
                 id: 3,
-                title: "Portfolio Website",
-                category: "Web Design",
-                image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
+                title: "Kredit Motor Landing Page",
+                category: "Web Development",
+                image: "/img/Kredit_Motor_Landing_Page.png"
+              },
+              {
+                id: 4,
+                title: "Kredit Motor Pengajuan Page",
+                category: "Web Development",
+                image: "/img/Kredit_Motor_Pengajuan.png"
+              },
+              {
+                id: 5,
+                title: "Kredit Motor Admin Management Page",
+                category: "Web Development",
+                image: "/img/Kredit_Motor_Admin.png"
               }
             ].map((project) => (
               <Link 
@@ -125,11 +135,11 @@ const Home = () => {
             ))}
           </div>
           
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Link to="/portfolio" className="btn-primary">
               View All Projects
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

@@ -6,47 +6,40 @@ import { ArrowRight } from 'lucide-react';
 // Sample project data
 const projectsData = [
   {
-    id: 1,
-    title: "E-commerce Website",
-    category: "Web Development",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    description: "A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout."
-  },
-  {
-    id: 2,
-    title: "Mobile Banking App",
-    category: "UI/UX Design",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
-    description: "A modern mobile banking application with intuitive user interface and secure transaction features."
-  },
-  {
-    id: 3,
-    title: "Portfolio Website",
-    category: "Web Design",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
-    description: "A personal portfolio website designed to showcase creative work with a clean and minimal aesthetic."
-  },
-  {
-    id: 4,
-    title: "Fitness Tracking App",
-    category: "Mobile Development",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
-    description: "A fitness application that tracks workouts, nutrition, and progress with data visualization."
-  },
-  {
-    id: 5,
-    title: "Restaurant Booking System",
-    category: "Web Development",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    description: "An online reservation system for restaurants with table management and customer notifications."
-  },
-  {
-    id: 6,
-    title: "Travel Blog",
-    category: "Web Design",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    description: "A vibrant travel blog with content management system, image galleries, and interactive maps."
-  }
+                id: 1,
+                title: "Catering Product Page",
+                category: "Web Development",
+                image: "/img/Catering_Product.png",
+                description: "A product page for a catering service, showcasing various dishes and services"
+              },
+              {
+                id: 2,
+                title: "Catering Admin Management Page",
+                category: "Web Development",
+                image: "/img/Catering_Admin.png",
+                description: "An admin management page for a catering service, allowing easy management of products and orders"
+              },
+              {
+                id: 3,
+                title: "Kredit Motor Landing Page",
+                category: "Web Development",
+                image: "/img/Kredit_Motor_Landing_Page.png",
+                description: "A landing page for a motorcycle credit service, designed to attract potential customers"
+              },
+              {
+                id: 4,
+                title: "Kredit Motor Pengajuan Page",
+                category: "Web Development",
+                image: "/img/Kredit_Motor_Pengajuan.png",
+                description: "A submission page for a motorcycle credit service, allowing users to apply for credit"
+              },
+              {
+                id: 5,
+                title: "Kredit Motor Admin Management Page",
+                category: "Web Development",
+                image: "/img/Kredit_Motor_Admin.png",
+                description: "An admin management page for a motorcycle credit service, enabling easy management of applications and approvals"
+              }
 ];
 
 // Get all unique categories

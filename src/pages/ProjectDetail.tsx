@@ -6,106 +6,85 @@ import { ArrowLeft } from 'lucide-react';
 const projectsData = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Catering Website Product Page",
     category: "Web Development",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    description: "A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout.",
-    client: "Fashion Boutique",
-    date: "March 2023",
-    services: ["UX Research", "UI Design", "Frontend Development", "Backend Integration"],
-    challenge: "The client needed a modern, user-friendly e-commerce platform that would showcase their products and provide a seamless shopping experience for their customers. The platform needed to be responsive, fast, and secure.",
-    solution: "I created a custom e-commerce platform that focuses on product presentation and user experience. The platform includes advanced filtering options, a streamlined checkout process, and integration with secure payment processors. The responsive design ensures a consistent experience across all devices.",
-    tools: ["Figma", "React", "Node.js", "MongoDB", "Stripe API"],
+    image: "/img/Catering_Product.png",
+    description: "A product page for a catering website showcasing various catering packages with an easy-to-use booking system.",
+    services: [],
+    challenge: "Deciding how to display the products",
+    solution: "I created a product page that displays the catering packages in a grid format with clear images and descriptions. The booking system is integrated with a calendar for easy selection of dates.",
+    tools: [],
     testimonial: {
-      text: "Working with John was an absolute pleasure. He understood our needs perfectly and delivered a website that exceeded our expectations. Our sales have increased by 30% since the launch!",
-      author: "Sarah Johnson, Owner of Fashion Boutique"
     }
   },
   {
     id: 2,
-    title: "Mobile Banking App",
-    category: "UI/UX Design",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
-    description: "A modern mobile banking application with intuitive user interface and secure transaction features.",
-    client: "NextGen Bank",
-    date: "November 2022",
-    services: ["UX Research", "UI Design", "Prototyping", "Usability Testing"],
-    challenge: "NextGen Bank needed a complete redesign of their mobile banking application to improve user experience, increase feature adoption, and align with their new brand identity.",
-    solution: "I conducted extensive user research and created a new design system that focuses on clarity and ease of use. The new interface makes common banking tasks more accessible while maintaining robust security features. Interactive prototypes were used for multiple rounds of usability testing before finalizing the design.",
-    tools: ["Figma", "Adobe XD", "InVision", "UserTesting.com"],
+    title: "Catering Admin Management Page",
+    category: "Web Development",
+    image: "/img/Catering_Admin.png",
+    description: " An admin management page for a catering website that allows staff to manage bookings, view customer details, and update product information.",
+    client: "",
+    date: "",
+    services: [],
+    challenge: "The admin management page needed to be user-friendly and allow staff to easily manage bookings and customer information.",
+    solution: "I designed a dashboard that provides an overview of bookings, customer details, and product information. The interface is intuitive, allowing staff to quickly navigate through different sections.",
+    tools: [],
     testimonial: {
-      text: "The redesigned app has received overwhelmingly positive feedback from our customers. User engagement has increased by 45%, and we've seen a significant reduction in support calls related to app navigation.",
-      author: "Michael Chen, Digital Product Manager at NextGen Bank"
+      text: "",
+      author: ""
     }
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    category: "Web Design",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
-    description: "A personal portfolio website designed to showcase creative work with a clean and minimal aesthetic.",
-    client: "Emma Parker, Photographer",
-    date: "January 2023",
-    services: ["Web Design", "Frontend Development", "SEO Optimization", "Content Strategy"],
-    challenge: "Emma needed a portfolio website that would showcase her photography work in a clean, minimal design that wouldn't distract from her images. The website needed to be easy to update with new work and optimized for search engines.",
-    solution: "I designed a minimalist portfolio with a focus on image presentation. The layout adapts to different image orientations and sizes, and includes a content management system that makes it easy for Emma to update her portfolio. The site is optimized for fast loading even with high-resolution images.",
-    tools: ["Figma", "React", "Next.js", "Sanity CMS", "Framer Motion"],
+    title: "Kredit Motor Landing Page",
+    category: "Web Development",
+    image: "/img/Kredit_Motor_Landing_Page.png",
+    description: "A landing page for a motorcycle financing service that highlights the benefits of financing options and includes a contact form.",
+    client: "",
+    date: "",
+    services: [],
+    challenge: "The landing page needed to effectively communicate the benefits of motorcycle financing and encourage users to fill out the contact form.",
+    solution: "I created a visually appealing landing page with clear calls to action. The design includes sections that highlight the benefits of financing, customer testimonials, and a simple contact form for inquiries.",
+    tools: [],
     testimonial: {
-      text: "My new portfolio perfectly captures my aesthetic while making my work shine. The site is incredibly easy to update, and I've received numerous compliments from clients about how professional and beautiful it is.",
-      author: "Emma Parker, Photographer"
+      text: "",
+      author: ""
     }
   },
   {
     id: 4,
-    title: "Fitness Tracking App",
-    category: "Mobile Development",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
-    description: "A fitness application that tracks workouts, nutrition, and progress with data visualization.",
-    client: "FitLife Gym Chain",
-    date: "August 2022",
-    services: ["Mobile App Design", "UX Research", "Frontend Development", "Backend Development"],
-    challenge: "FitLife wanted to develop a fitness tracking app for their members that would help them track workouts, monitor progress, and stay motivated. The app needed to integrate with existing health platforms and wearable devices.",
-    solution: "I designed and developed a comprehensive fitness tracking app that allows users to create custom workout plans, log their activities, track nutrition, and visualize their progress over time. The app integrates with popular fitness wearables and provides personalized recommendations based on user goals.",
-    tools: ["React Native", "Firebase", "HealthKit", "Google Fit API", "Chart.js"],
+    title: "Kredit Motor Pengajuan Page",
+    category: "Web Development",
+    image: "/img/Kredit_Motor_Pengajuan.png",
+    description: "A submission page for motorcycle financing applications that allows users to fill out their details and submit their application.",
+    client: "",
+    date: "",
+    services: [],
+    challenge: "The submission page needed to be user-friendly and secure, ensuring that users could easily fill out their details without confusion.",
+    solution: "I designed a step-by-step form that guides users through the application process. Each step includes clear instructions and validation to ensure that all required information is collected accurately.",
+    tools: [],
     testimonial: {
-      text: "The fitness app has become an essential part of our member experience. Our members love the intuitive interface and the ability to track their progress. Member retention has improved by 25% since introducing the app.",
-      author: "Robert Thompson, CEO of FitLife Gyms"
+      text: "",
+      author: ""
     }
   },
   {
     id: 5,
-    title: "Restaurant Booking System",
+    title: "Kredit Motor Admin Management Page",
     category: "Web Development",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    description: "An online reservation system for restaurants with table management and customer notifications.",
-    client: "Sapore Restaurant Group",
-    date: "May 2022",
-    services: ["Web Development", "UI/UX Design", "System Integration", "Staff Training"],
-    challenge: "The restaurant group needed to replace their outdated phone-based reservation system with a modern online booking platform that would integrate with their existing POS system and reduce no-shows.",
-    solution: "I developed a custom reservation system that allows customers to book tables online, receive automated confirmations and reminders, and easily modify their bookings. The staff interface provides a visual table management system and customer database. The system has reduced no-shows by 40% through automated reminders.",
-    tools: ["React", "Node.js", "PostgreSQL", "Twilio API", "Square POS Integration"],
+    image: "/img/Kredit_Motor_Admin.png",
+    description: "An admin management page for motorcycle financing that allows staff to manage applications, view customer details, and update financing options.",
+    client: "",
+    date: "",
+    services: [],
+    challenge: "The admin management page needed to be user-friendly and allow staff to easily manage applications, customer details, and update financing options.",
+    solution: "I designed a dashboard that provides an overview of applications, customer details, and financing options. The interface is intuitive, allowing staff to quickly navigate through different sections.",
+    tools: [],
     testimonial: {
-      text: "The new booking system has revolutionized our operations. Our staff loves how easy it is to manage reservations, and our customers appreciate the convenience. The reduction in no-shows has had a significant impact on our bottom line.",
-      author: "Isabella Romano, Operations Manager at Sapore Restaurant Group"
+      text: "",
+      author: ""
     }
   },
-  {
-    id: 6,
-    title: "Travel Blog",
-    category: "Web Design",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    description: "A vibrant travel blog with content management system, image galleries, and interactive maps.",
-    client: "Wanderlust Explorers",
-    date: "February 2022",
-    services: ["Web Design", "Content Strategy", "CMS Implementation", "SEO Optimization"],
-    challenge: "Wanderlust Explorers needed a visually engaging blog platform that would showcase their travel stories, photography, and recommendations while being easy to update from anywhere in the world.",
-    solution: "I designed and developed a custom travel blog with a robust content management system, interactive maps showing travel routes, image galleries, and category filtering. The site is optimized for SEO and includes social sharing features to increase reach. The responsive design ensures a great experience on all devices.",
-    tools: ["WordPress", "Custom Theme Development", "Advanced Custom Fields", "MapBox Integration", "Yoast SEO"],
-    testimonial: {
-      text: "Our new travel blog perfectly captures the essence of our adventures. The interactive maps are a huge hit with our readers, and we love how easy it is to update the site even when we're traveling with limited internet access.",
-      author: "Alex and Maya, Founders of Wanderlust Explorers"
-    }
-  }
 ];
 
 const ProjectDetail = () => {
